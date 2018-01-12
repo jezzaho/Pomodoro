@@ -24,7 +24,7 @@ body {
 
 }
 #buttonContainer {
-  padding-top: 20%;
+  padding-top: 12%;
   padding-left: 20px;
   padding-right: 20px;
   width: auto;
@@ -103,9 +103,14 @@ body {
 #submit {
   background: #0288D1;
   margin-top: 15px;
+  box-shadow: 0 9px #999;
 }
 #submit:hover {
   background: #01579B;
+}
+#submit:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
 }
 #text {
   margin-top: 10px;
@@ -116,10 +121,15 @@ body {
 #custom {
   background: #689F38;
   margin-left: 5px;
-
+  box-shadow: 0 9px #999;
 }
 #custom:hover {
   background: #33691E;
+}
+#custom:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
 }
 #footer {
     display: block;
