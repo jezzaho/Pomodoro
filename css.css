@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  /* background-color: #AED581 !important; */
+}
+
+#container {
+
+  width: 450px;
+  height: 650px;
+  margin: 0 auto;
+  text-align: center;
+  background: #D32F2F;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 20px;
+  border: 30px solid white;
+}
+#timer {
+  position: relative;
+  padding-top: 10%;
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 50px;
+
+}
+#buttonContainer {
+  padding-top: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  z-index: 3;
+
+}
+.button {
+  width: 32%;
+  height: 40px;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s ease 0s;
+}
+
+#one {
+  background:#5D4037;
+  font-weight: 600;
+  font-family: "Lato";
+  color: white;
+  box-shadow: 0 9px #999;
+}
+#one:hover {
+  background:#3E2723;
+}
+#one:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
+#two {
+  background: #AD1457;
+  font-weight: 600;
+  font-family: "Lato";
+  color: white;
+  box-shadow: 0 9px #999;
+}
+#two:hover {
+  background: #880E4F
+}
+#two:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
+#three {
+  background: #00796B;
+  font-weight: 600;
+  font-family: "Lato";
+  color: white;
+   box-shadow: 0 9px #999;
+}
+#three:hover {
+  background: #004D40;
+}
+#three:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
+#drop {
+  width: 32%;
+  height: 40px;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 30px;
+  background: #AFB42B;
+  transition: all 0.3s ease 0s;
+}
+#drop:hover {
+  background: #827717;
+}
+#drop:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.32);
+}
+.input {
+  margin-top: 30px;
+}
+#submit {
+  background: #0288D1;
+  margin-top: 15px;
+}
+#submit:hover {
+  background: #01579B;
+}
+#text {
+  margin-top: 10px;
+  font-family: Lato;
+  font-size: 24px;
+  text-align: center;
+}
+#custom {
+  background: #689F38;
+  margin-left: 5px;
+
+}
+#custom:hover {
+  background: #33691E;
+}
+#footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1em;
+    line-height: 1em;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: "Lato";
+    box-shadow: 0 -19px 40px rgba(0,0,0,0.30), 0 -15px 25px rgba(0,0,0,0.22);
+    font-family: "Lato";
+    font-size: 18px;
+    background: #FFA000;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+.btn {
+  position: relative;
+  width:500px;
+  margin: 0 auto;
+  margin-left:-80px;
+}
