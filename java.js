@@ -37,6 +37,7 @@ else {
 }
 function timeIt(timeleft){
   $('#timer').html(convert(timeleft - counter));
+  $('title').html(convert(timeleft-counter));
   counter++;
 
 }
